@@ -76,9 +76,9 @@ function getAveragePower() {
 }
 
 function renderHeader() {
-  console.log(paint("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", ANSI.bright, ANSI.green));
-  console.log(paint(" NIVELES DE PODER [INVINCIBLE][THE BOYS][TO BE HERO][MORE...]", ANSI.bright, ANSI.greenBright));
-  console.log(paint("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", ANSI.bright, ANSI.green));
+  console.log(paint("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿", ANSI.bright, ANSI.green));
+  console.log(paint("           __POWER LEVELS__          ", ANSI.bright, ANSI.greenBright));
+  console.log(paint("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿", ANSI.bright, ANSI.green));
   console.log(paint(`Rango de poder: 0 a ${formatPower(MAX_POWER)} pts`, ANSI.green));
   console.log(paint("Escribe 'exit' para salir.", ANSI.greenBright));
   console.log("");
