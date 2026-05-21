@@ -8,4 +8,4 @@ WORKDIR /app
 COPY main.js .
 
 # Ejecutamos el script de Python
-CMD ["python", "script.py"]
+CMD ["python", "main.py"]
