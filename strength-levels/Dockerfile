@@ -7,5 +7,5 @@ WORKDIR /app
 # Copiamos el script de Python al directorio de trabajo
 COPY main.js .
 
-# Ejecutamos el script de Python
-CMD ["python", "main.py"]
+# Ejecutamos el script Javscript
+CMD ["node ", "main.js"]
