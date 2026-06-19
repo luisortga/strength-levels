@@ -9,3 +9,5 @@ COPY main.js .
 
 # Ejecutamos el script Javscript
 CMD ["node ", "main.js"]
+
+# pending
